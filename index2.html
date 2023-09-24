@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Página principal</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="./index1.css">
+</head>
+
+<body>
+  <!-- Navigation -->
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-secondary">
+    <div class="container-fluid">
+      <a class="navbar-brand text-light" href="#">Adnane</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse show" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-link active text-light" aria-current="page" href="#">Sobre mí</a>
+          <a class="nav-link text-light" href="#">Curriculum</a>
+          <a class="nav-link text-light" href="#">Sígueme</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <br>
+  
+  <div class="bg-image"
+    style="background-image: url('https://mdbootstrap.com/img/Photos/Others/images/76.jpg'); height: 80vh">
+
+
+    <!-- Debes envolver el contenido en un jumbotron haciendo uso de las clases correspondientes -->
+    <div class="jumbotron">
+      <h1 class="display-4">Añan</h1>
+      <p class="lead">Nadie es tan grande que no pueda aprender, ni tan pequeño que no pueda enseñar</p>
+      <hr class="my-4">
+      <a class="btn btn-primary btn-lg" href="#" role="button">Aprende más</a>
+    </div>
+  </div>
+  <!-- Carousel -->
+  <div class="container">
+    <div class="row">
+      <div class="col-12 mt-5">
+        <div id="playaCarousel" class="carousel slide" data-bs-ride="carousel">
+          <!-- Indicadores -->
+          <ol class="carousel-indicators">
+            <li data-bs-target="#playaCarousel" data-bs-slide-to="0" class="active"></li>
+            <li data-bs-target="#playaCarousel" data-bs-slide-to="1"></li>
+            <li data-bs-target="#playaCarousel" data-bs-slide-to="2"></li>
+          </ol>
+
+          <!-- Imágenes del carousel -->
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="https://c8.alamy.com/compes/2a5r5ef/carrusel-en-la-playa-de-brighton-inglaterra-2a5r5ef.jpg"
+                alt="Playa 1">
+              <div class="carousel-caption">
+                <h3>Playa 1</h3>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="https://img.freepik.com/fotos-premium/carrusel-playa-al-atardecer_865967-26819.jpg?w=2000"
+                alt="Playa 2">
+              <div class="carousel-caption">
+                <h3>Playa 2</h3>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="https://img.freepik.com/fotos-premium/carrusel-playa-al-atardecer-gente-caminando_865967-26827.jpg?w=2000"
+                alt="Playa 3">
+              <div class="carousel-caption">
+                <h3>Playa 3</h3>
+              </div>
+            </div>
+          </div>
+
+          <!-- Controles de izquierda y derecha -->
+          <a class="carousel-control-prev" href="#playaCarousel" role="button" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Anterior</span>
+          </a>
+          <a class="carousel-control-next" href="#playaCarousel" role="button" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Siguiente</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Fin del Carousel -->
+
+  <br>
+
+  <footer class="bg-secondary text-white text-center">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <ul class="list-unstyled list-inline">
+            <li class="list-inline-item">
+              <a href="https://twitter.com" target="_blank" class="text-white">Twitter</a>
+            </li>
+            <li class="list-inline-item">
+              <a href="https://www.youtube.com" target="_blank" class="text-white">YouTube</a>
+            </li>
+            <li class="list-inline-item">
+              <a href="https://www.instagram.com" target="_blank" class="text-white">Instagram</a>
+            </li>
+            <li class="list-inline-item">
+              <a href="https://www.facebook.com" target="_blank" class="text-white">Facebook</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts de Bootstrap -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
